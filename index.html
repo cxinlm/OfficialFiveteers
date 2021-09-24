@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fiveteers</title>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200&family=Fjalla+One&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="header" data-aos="fade-in" data-aos-duration="400" data-aos-easing="ease-in-out">
+      <h1><img src="images/logo1.png" width=500px; height=500px; onContextMenu="return false"></h1>
+    </div>
+    <div class="navbar" data-aos="zoom-in" data-aos-duration="1000">
+      <a href="#">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#news">News</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#socials">Socials</a>
+    </div> 
+    <div class="fiveteers">
+      <div id="about" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+        <br /><h1>Fiveteers</h1>
+    <button
+      type="button"
+      class="btn btn-danger btn-floating btn-lg"
+      id="btn-back-to-top"
+    >
+    <i class="fas fa-arrow-up"></i>
+    </button> 
+    <h2>Meet the crew</h2>
+       <br />
+        <div class="crewmates" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+          <a href="#socials"><div class="karu" data-tilt data-tilt-scale="1.08" data-tilt-glare data-tilt-max-glare="0.3">
+            <div id="def">karu</div>
+            <div id="triangle"></div>
+          </div></a>
+          <a href="#socialone"><div class="angel" data-tilt data-tilt-scale="1.08" data-tilt-glare data-tilt-max-glare="0.3">
+            <div id="def">angel</div>
+            <div id="triangle"></div>
+          </div></a>
+          <a href="#socialtwo"><div class="mary" data-tilt data-tilt-scale="1.08" data-tilt-glare data-tilt-max-glare="0.3">
+            <div id="def">mary</div>
+            <div id="triangle"></div>
+          </div></a>
+          <a href="#socialthree"><div class="raven" data-tilt data-tilt-scale="1.08" data-tilt-glare data-tilt-max-glare="0.3">
+            <div id="def">raven</div>
+            <div id="triangle"></div>
+          </div></a>
+          <a href="#socialfour"><div class="lim" data-tilt data-tilt-scale="1.08" data-tilt-glare data-tilt-max-glare="0.3">
+            <div id="def">christina</div>
+            <div id="triangle"></div>
+          </div></a>
+        </div>
+      </div>
+    </div>
+    <div class="newspage" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+      <div id="news">
+        <br /><h1>News</h1>
+        <h2>Latest updates</h2>
+        <div class="stack" data-aos="fade-up" data-aos-duration="400" data-aos-easing="ease-in-out">
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+        </div>
+      </div>
+    </div>
+    <div class="artgallery" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+      <div id="gallery">
+        <br /><h1>Gallery</h1>
+        <h2>View their creative pieces</h2>
+        <div class="slideshow-container" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="art/maryart.jpg" style="width:100%" draggable="false" onContextMenu="return false">
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="art/amorart.jpg" style="width:100%" draggable="false" onContextMenu="return false">
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="art/angelart.jpg" style="width:100%" draggable="false" onContextMenu="return false">
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="art/ravenart.jpg" style="width:100%" draggable="false" onContextMenu="return false">
+          </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <br>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
+    </div>
+    <div class="socialmedia" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+      <div id="socials">
+        <br /><h1>Socials</h1>
+        <h2>Follow Fiveteers on social media</h2>
+          <br />
+          <div id="socialone" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div id="profile"><img src="icons/ji.jpg" draggable="false" onContextMenu="return false">
+            </div>  
+            <p id="one">
+            <a href="https://twitter.com/karusekaii" class="fa fa-twitter" target="_blank"></a>
+            <a href="https://www.instagram.com/karusekai/" class="fa fa-instagram" target="_blank"></a>
+            </p>
+            <br><p id="oneone">karu</p></br>
+            <h3 id="firsth3">[he/him] 19 years old artist
+            <br>he/him | ocs | mutilfandom | comms: (3/5)</br> 
+            </h3>
+          </div>
+          <div id="socialtwo" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div id="profiletwo"><img src="icons/angel.jpg" draggable="false" onContextMenu="return false">
+            </div>  
+            <p id="two">
+            <a href="https://twitter.com/SleepaHoliccx" class="fa fa-twitter" target="_blank"></a>
+            <a href="https://www.instagram.com/sleepaholiccx/" class="fa fa-instagram" target="_blank"></a>
+            </p>
+            <br><p id="twotwo">angel</p></br>
+            <h3 id="secondh3">[she/her] 19 years old artist
+            <br>|| OCs || Painting || My OCs are my life</br>  
+            </h3> 
+          </div>
+          <div id="socialthree" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div id="profile"><img src="icons/miwi.jpg" draggable="false" onContextMenu="return false">
+            </div>
+            <p id="one">
+            <a href="https://twitter.com/EllezRi" class="fa fa-twitter" target="_blank"></a>
+            <a href="https://www.instagram.com/riellezarts/" class="fa fa-instagram" target="_blank"></a>
+            </p>
+            <br><p id="oneone">mary</p></br>
+            <h3 id="firsth3">[she/her] 18 years old artist
+            <br>Bearing the memory span of a goldfish is me</br>
+            </h3>
+          </div>
+          <div id="socialfour" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div id="profiletwo"><img src="icons/raven.jpg" draggable="false" onContextMenu="return false">
+            </div>  
+            <p id="two">
+            <a href="https://twitter.com/suzouka" class="fa fa-twitter" target="_blank"></a>
+            <a href="https://www.instagram.com/kazashisuzouka/" class="fa fa-instagram" target="_blank"></a>
+            </p>
+            <br><p id="twotwo">raven</p></br>
+            <h3 id="secondh3">[he/him] 18 years old artist
+            <br>YAOI, YURI, TSUNDERE, YANDERE, WEEB</br>
+            </h3>   
+          </div>
+          <div id="socialfive" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div id="profile"><img src="icons/babaeng blue.jpg" draggable="false" onContextMenu="return false">
+            </div>  
+            <p id="one">
+              <a href="https://facebook.com/cxinria" class="fa fa-facebook" target="_blank"></a>
+              <a href="https://www.instagram.com/cxinril/" class="fa fa-instagram" target="_blank"></a>
+              </p>
+              <br><p id="oneone">christina</p></br>
+              <h3 id="firsth3">[she/her] 18 years old programmer
+              <br>Struggling freshman.</br>
+              </h3>   
+          </div>
+      </div>
+    </div>
+    <div class="footer">
+      <h2 id="foot">Fiveteers ©2021</h2>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="scripts/scrollup.js"></script>
+    <script src="scripts/gallery.js"></script>
+    <script src="scripts/scrolling.js"></script>
+    <script src="scripts/retainscroll.js"></script>
+    <script src="scripts/script.js" defer></script>
+    <script src="https://cdnjs.cloudfare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts/vanilla-tilt.js" defer></script>
+  </body>
+</html>
